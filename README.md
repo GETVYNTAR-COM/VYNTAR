@@ -1,35 +1,35 @@
+# VYNTAR Dashboard
 
-  "name": "vite-react-typescript-starter",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.57.4",
-    "lucide-react": "^0.344.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^9.9.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "globals": "^15.9.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
-  }
-}
+AI-powered marketplace intelligence dashboard for Facebook Marketplace sellers.
+
+This is the **application dashboard**, not the public landing page.
+
+---
+
+## 🌐 Live URLs
+
+- **Dashboard (App):** https://getvyntar.com  
+- **Landing Page:** https://getvyntar.com/getvyntar
+
+---
+
+## 🧱 Tech Stack
+
+- Vite + React + TypeScript
+- Supabase (Database + Auth)
+- Tailwind CSS
+- Deployed on Vercel
+
+---
+
+## 🔐 Environment Variables (REQUIRED)
+
+⚠️ **DO NOT put real API keys in this repo**
+
+These variables must be added in **Vercel → Project → Settings → Environment Variables**
+
+### Required variables:
+
+```env
+VITE_SUPABASE_URL=https://YOUR_PROJECT_ID.supabase.co
+VITE_SUPABASE_ANON_KEY=YOUR_PUBLIC_ANON_KEY
