@@ -1,1 +1,5 @@
 https://app.netlify.com/drop https:/vyntardashboard.bolt.host
+dist/index.html - Your main HTML file
+dist/assets/index-B_0-b_sh.js (287 KB) - All your JavaScript bundled and minified
+dist/assets/index-CCy-N0rm.css (15 KB) - All your CSS bundled and minified
+dist/_redirects - Routing configuration for single-page app
