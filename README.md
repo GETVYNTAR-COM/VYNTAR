@@ -1,4 +1,4 @@
-# VYNTAR Dashboard
+# VYNTAR Dashboard 
 
 AI-powered marketplace intelligence dashboard for Facebook Marketplace sellers.
 
